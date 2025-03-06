@@ -47,7 +47,7 @@ const App = () => {
     <Router>
       <nav>
         <Link to="/">Home</Link> | <Link to="/login">Login</Link>
-        <p>Auth Status: {auth ? "Authenticated" : "Not Authenticated"}</p>
+        <p>Auth Status: {auth ? "Authenticated" : "You are not authenticated, Please login first"}</p>
       </nav>
 
       <Routes>
